@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AR-Cards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Title.css">
+  <link rel="Shortcut icon" type="image" href="Flag.png">
+  <link rel="stylesheet" type="text/css" href="NavBar1.css">
+  <link rel="stylesheet" type="text/css" href="background.css">
+  <link rel="stylesheet" href="Aileron-regular.otf">
+  <img src="grass.jpg " alt = "background" class = "backimg">
+
+<style>
+body {
+  margin: 12.5%;
+  font-size: 28px;
+  width:75%;
+  font-family: aileron;
+  font-style: ;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  display: block;
+  z-index: 100;
+  position:sticky;
+  font-family: aileron;
+  font-size: 70px;
+}
+
+
+.content {
+  padding: 1%;
+    position: static;
+    left: 0 ;
+
+    background-color:rgba(255, 255, 255, 0.8);
+    width:98%;
+    margin-left:;
+    z-index: -99;
+}
+
+.middle-white {
+    position: absolute;
+    left: 0 ;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.8);
+    width:75%;
+    margin-left:12.5%;
+    z-index: -99;
+}
+
+.middle-left-text{
+    float: left;
+    width: 20%;
+    padding:
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="header">
+<img src="TheAssistantReferee.png">
+</div>
+
+<div id="navbar">
+  <a href="homepagereal.html"><img src="Flag.png">Click here to return to the index page.<img src="Flag.png"></a>
+</div>
+
+<div class="content">
+  <h2>Equipment</h2>
+  <p>This page contains a description and example of red/yellow cards and a record book</p>
+<p>-----</p>
+<h4>Cards</h4>
+<p>Cards are an important component of a referee's kit, as they allow you to caution and send off players for offenses to the Laws of The Game(LoTG). Many cards available via official websites either look cheap or feel cheap. I have found eBay to be the best place to buy FIFA cards. Purchase two sets so you have one spare and always take both sets onto the field. I find it is best to keep the yellow and red in opposite side pockets (you can use the back pocket if you wish) with another set of red/yellow in my top pocket.</p>
+<br>
+<h4>Card Accessories</h4>
+<p>You can buy ‘write-on’ cards now which allow you to write directly onto the card, however they are not really ideal and don’t always work as well as they should. Having a notepad/notebook in your pocket is cumbersome when you don’t really need it. Many of the top referees still use masking tape on one side of their yellow card to record cautions (and dismissals once you have actually issued the red card), goals and important info. This is the method I use and it is very handy. You need masking tape which is at least 6 centimeters in width.</p>
+<br>
+<h4>Record Book</h4>
+<p>A record book is vital for low-medium level refereeing where you have to record score, sanctions and substitutions yourself. A good record book has room for all of those things that need to be recorded and prefereably waterproof.</p>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

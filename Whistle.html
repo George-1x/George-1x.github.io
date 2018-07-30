@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AR-Whistle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Title.css">
+  <link rel="Shortcut icon" type="image" href="Flag.png">
+  <link rel="stylesheet" type="text/css" href="NavBar1.css">
+  <link rel="stylesheet" type="text/css" href="background.css">
+  <link rel="stylesheet" href="Aileron-regular.otf">
+  <img src="grass.jpg " alt = "background" class = "backimg">
+
+<style>
+body {
+  margin: 12.5%;
+  font-size: 28px;
+  width:75%;
+  font-family: aileron;
+  font-style: ;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  display: block;
+  z-index: 100;
+  position:sticky;
+  font-family: aileron;
+  font-size: 70px;
+}
+
+
+.content {
+  padding: 1%;
+    position: static;
+    left: 0 ;
+
+    background-color:rgba(255, 255, 255, 0.8);
+    width:98%;
+    margin-left:;
+    z-index: -99;
+}
+
+.middle-white {
+    position: absolute;
+    left: 0 ;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.8);
+    width:75%;
+    margin-left:12.5%;
+    z-index: -99;
+}
+
+.middle-left-text{
+    float: left;
+    width: 20%;
+    padding:
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="header">
+<img src="TheAssistantReferee.png">
+</div>
+
+<div id="navbar">
+  <a href="homepagereal.html"><img src="Flag.png">Click here to return to the index page.<img src="Flag.png"></a>
+</div>
+
+<div class="content">
+  <h2>Equipment</h2>
+  <p>This page contains a description and an example of a whistle.</p>
+<p> -----</p>
+<h4>Whistle</h4>
+<p>A whistle is how a referee controls the game, so it is important that your whistle is loud and reliable. FOX 40 are the most common type of whistle because it has an outstanding quality and loud, attention demanding tone. Make sure you buy multiple whistles incase one breaks or gets lost. It is also a good idea to keep a spare whistle in your pocket whenever out on the field.</p>
+<br>
+<h4>Whistle Accessories</h4>
+<p>Majority of high-level referees use an elastic lanyard/loop that allows you to run without the whistle in your hand (although I personally keep it in my hand anyway, despite being attached to the lanyard) and it always remains within your grip, making it less likely for you to drop.</p>
+
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

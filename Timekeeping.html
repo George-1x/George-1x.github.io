@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AR-Time Keeping</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Title.css">
+  <link rel="Shortcut icon" type="image" href="Flag.png">
+  <link rel="stylesheet" type="text/css" href="NavBar1.css">
+  <link rel="stylesheet" type="text/css" href="background.css">
+  <link rel="stylesheet" href="Aileron-regular.otf">
+  <img src="grass.jpg " alt = "background" class = "backimg">
+
+<style>
+body {
+  margin: 12.5%;
+  font-size: 28px;
+  width:75%;
+  font-family: aileron;
+  font-style: ;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  display: block;
+  z-index: 100;
+  position:sticky;
+  font-family: aileron;
+  font-size: 70px;
+}
+
+
+.content {
+  padding: 1%;
+    position: static;
+    left: 0 ;
+
+    background-color:rgba(255, 255, 255, 0.8);
+    width:98%;
+    margin-left:;
+    z-index: -99;
+}
+
+.middle-white {
+    position: absolute;
+    left: 0 ;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.8);
+    width:75%;
+    margin-left:12.5%;
+    z-index: -99;
+}
+
+.middle-left-text{
+    float: left;
+    width: 20%;
+    padding:
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="header">
+<img src="TheAssistantReferee.png">
+</div>
+
+<div id="navbar">
+  <a href="homepagereal.html"><img src="Flag.png">Click here to return to the index page.<img src="Flag.png"></a>
+</div>
+
+<div class="content">
+  <h2>Equipment</h2>
+  <p>This page contains a description and example of watches used to keep the time.</p>
+<p>-----</p>
+<h4>Watch</h4>
+<p>There are dozens of referees’ watches to choose from, all with their own functions and uses. However, the Spintso Watch was developed by referees and contains all of the features you could wish for. Timer counting up, timer counting down (stops for additional time), additional time display and even a timer for the interval between each half. This is the watch I use and it is perfect for referees. I also have a 2nd watch, the Casio RFT-100. It is comfortable, simple and does exactly what you need it to. It has a countdown and timer function and a handy vibration feature to alert you when time is up without the need for an audible tone. It is used by many professional referees. However any water-resistant digital watch with a stopwatch will work fine</p>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
